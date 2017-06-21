@@ -148,10 +148,28 @@ Coders
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h2>Tarifas</h2>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+	                    <div id="encuentrame"></div>
+	                    <div class="col-md-12 col-xs-12">
+	                    	<h2>Tarifas</h2>
+	                        <p>Consulta las tarifas LabCar aquí</p>
+	                    </div>
+	                    <div class="col-md-12 col-xs-12 text-center">
+	                        <label for="origen">Origen</label>
+	                        <input id="origen" class="form-control" type="text" placeholder="Introduce una ubicación">
+	                    </div>
+	                    <div class="col-md-12 col-xs-12 text-center">
+	                        <label for="destino">Destino</label>
+	                        <input id="destino" class="form-control" type="text" placeholder="Introduce una ubicación">
+	                    </div>
+	                    <div class="col-md-2 col-xs-12">
+	                        <button id="ruta" class="btn btn-default">TRAZAR RUTA!</button>
+	                    </div>
+	                </div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 hidden-xs" id="map">
 					<!--MAPA-->
+
 				</div>
 			</div>
 		</div>
@@ -175,5 +193,7 @@ Coders
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- Tu Archivo main.js -->
 	<script type="text/javascript" src="assets/js/main.js"></script>
+	<!--MAPA-->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVd725b3axYI8bCQOaPSQFnMkBmLlJQLg&libraries=places&callback=initMap"></script>
 </body>
 </html>

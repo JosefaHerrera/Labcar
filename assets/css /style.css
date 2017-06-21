@@ -122,8 +122,19 @@ body{
 
 /*MAPA*/
 
-.mapa{
-	background-color: #f7b617;
+.mapa {
+    background-color: #f7b617;
+    height: 600px;
+    padding-top: 60px;
+    color: white;
+}
+
+#map {
+    height: 52vh;
+    border: 2px solid #ffffff;
+    /* margin: -6px; */
+    margin-top: 50px;
+    padding: 16px;
 }
 
 
