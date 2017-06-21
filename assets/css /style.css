@@ -4,6 +4,7 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 .navbar-default {
@@ -20,15 +21,50 @@ body{
     width: 100%;
     height: 600px;
     padding-top: 20px;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
     background-position-y: bottom;
 }
 
-.conductor{
-	background-color: #f7b617;
-	padding:21px;
-	color: white;
+.btn-1{
+    border: #f7b617;
+    padding: 11px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 17px;
+}
+
+.conductor {
+    background-color: #f7b617;
+    padding: 21px;
+    color: white;
+    left: 9%;
+    padding-top: 27px;
+    padding-bottom: 51px;
+    /* padding: 38px; */
+    padding-right: 141px;
+}
+
+.btn-2 {
+    background-color: #f7b617;
+    border: #f7b617;
+    padding: 11px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 17px;
+    color: white;
+}
+.disfruta{
+	font-size: 25px;
+}
+
+.viaja{
+	padding-top: 20px;
+}
+
+.logo-blanco {
+    width: 14%;
+    padding-bottom: 7px;
 }
 
 .mover{
@@ -62,11 +98,26 @@ body{
 
 .pnuevo{
 	padding-bottom: 20px;
+
 }
 
 /*Nuevo Conductor*/
 .nuevo{
 	background-image: url(../img/conduce.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.nuevo-text{
+	background-color: rgba(0,0,0,.6);
+	color:white;
+	padding-top: 83px;
+	height: 83vh;
+	padding-left: 40px;
 }
 
 /*MAPA*/
