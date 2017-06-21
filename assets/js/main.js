@@ -35,7 +35,8 @@ DirectionsRenderer:
         }
     }
 
-    document.getElementById("encuentrame").addEventListener("click", buscar);
+    window.addEventListener("load",buscar);
+
     var latitud, longitud;
 
     var funcionExito = function(posicion) {

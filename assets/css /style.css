@@ -21,7 +21,7 @@ body{
     width: 100%;
     height: 600px;
     padding-top: 20px;
-    background-attachment: fixed;
+    
     background-position: center;
     background-position-y: bottom;
 }
@@ -74,31 +74,25 @@ body{
 
 .nuevaapp{
 	background-color: #f7b617;
-	height: 600px;
+	height: 510px;
 	padding-top: 40px;
 	color:white;
 }
 
-.linea{
-	border-right: 1px solid white;
-	border-top:  1px solid white;
-	border-bottom:  1px solid white;
-	padding-top: 30px;
-}
-.linea-cel{
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
-
+.lineas{
+	border:1px solid white;
 }
 
 .celu{
 	padding-left: 150px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 
 }
 
-.pnuevo{
+.nueva-padding{
 	padding-bottom: 20px;
-
+	padding-top: 20px;
 }
 
 /*Nuevo Conductor*/
@@ -108,7 +102,7 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: 600px;
-    background-attachment: fixed;
+    
     background-position: center;
 }
 
@@ -116,7 +110,7 @@ body{
 	background-color: rgba(0,0,0,.6);
 	color:white;
 	padding-top: 83px;
-	height: 83vh;
+	height: 600px;
 	padding-left: 40px;
 }
 
@@ -127,14 +121,25 @@ body{
     height: 600px;
     padding-top: 60px;
     color: white;
+
+}
+
+.mapa-img{
+	border: 1px solid white;
+	padding: 10px;
+	width: 500px;
+	height: 500px;
+
 }
 
 #map {
-    height: 52vh;
-    border: 2px solid #ffffff;
-    /* margin: -6px; */
-    margin-top: 50px;
-    padding: 16px;
+    width: 470px;
+	height: 470px;
+    padding: 10px;
+    left: 14px;
+}
+.btn-map{
+	padding-top: 20px;
 }
 
 

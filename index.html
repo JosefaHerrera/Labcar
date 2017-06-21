@@ -118,13 +118,15 @@ Coders
 	<section class="nuevaapp">
 		<div class="container- fluid">
 			<div class="row">
-				<div class="col-md-6 linea-cel">
-					<img class="celu" src="assets/img/celular.png" alt="">
-				</div>
-				<div class="col-md-4 col-md-pull-2 text-left linea">
-					<h2>Descarga la nueva app</h2>
-					<p class="pnuevo">La versión actualizada de Labcar esta llena de nuevas funciones para llegar a donde tu quieras aun mas facil y rapido </p>
-					<p >Con solo tocar un boton, un auto llega justo a tu ubicacion. Subete y no te preocupes : Tu conductor sabe exactamente donde ir</p>
+				<div class="col-md-10 lineas">
+					<div class="col-md-6">
+						<img class="celu img-responsive" src="assets/img/celular.png" alt="">
+					</div>
+					<div class="col-md-6 hidden-xs nueva-padding">
+						<h2>Descarga la nueva app</h2>
+						<p>La versión actualizada de Labcar esta llena de nuevas funciones para llegar a donde tu quieras aun mas facil y rapido </p>
+						<p >Con solo tocar un boton, un auto llega justo a tu ubicacion. Subete y no te preocupes : Tu conductor sabe exactamente donde ir</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -149,26 +151,29 @@ Coders
 			<div class="row">
 				<div class="col-md-6">
 					<div class="col-md-12 col-sm-12 col-xs-12">
-	                    <div id="encuentrame"></div>
 	                    <div class="col-md-12 col-xs-12">
 	                    	<h2>Tarifas</h2>
 	                        <p>Consulta las tarifas LabCar aquí</p>
 	                    </div>
 	                    <div class="col-md-12 col-xs-12 text-center">
-	                        <label for="origen">Origen</label>
+	                        <span><img src="assets/img/circulo.png" alt=""></span>
 	                        <input id="origen" class="form-control" type="text" placeholder="Introduce una ubicación">
 	                    </div>
 	                    <div class="col-md-12 col-xs-12 text-center">
-	                        <label for="destino">Destino</label>
+	                        <span><img src="assets/img/flecha.png" alt=""></span>
 	                        <input id="destino" class="form-control" type="text" placeholder="Introduce una ubicación">
 	                    </div>
-	                    <div class="col-md-2 col-xs-12">
+	                    <div class="col-md-2 col-xs-12 btn-map">
 	                        <button id="ruta" class="btn btn-default">TRAZAR RUTA!</button>
 	                    </div>
 	                </div>
 				</div>
-				<div class="col-md-6 hidden-xs" id="map">
-					<!--MAPA-->
+				<div class="col-md-6 hidden-xs hidden-sm mapa-img">
+					<div class="row">
+						<div class="col-md-12 hidden-xs hidden-sm text-center" id="map">
+							
+						</div>
+					</div>
 
 				</div>
 			</div>
