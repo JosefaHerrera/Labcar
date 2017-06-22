@@ -164,7 +164,7 @@ input{
 }
 .form-control {
     display: block;
-    width: 100%;
+    width: 50%;
     height: 34px;
     padding: 6px 12px;
     font-size: 14px;
@@ -175,6 +175,23 @@ input{
     border-radius: 10px;
 
 }
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+.form-control:-moz-placeholder {
+    color: white;
+}
+
+.form-control::-moz-placeholder {
+    color: white;
+}
+
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+
 /*footer*/
 
 
