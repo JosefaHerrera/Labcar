@@ -154,6 +154,7 @@ body{
 }
 .btn-map{
 	padding-top: 20px;
+	padding-left: 20px;
 }
 
 input{
@@ -175,7 +176,7 @@ input{
     border-radius: 10px;
 
 }
-
+/*placeholder*/
 .form-control::-webkit-input-placeholder {
     color: white;
 }

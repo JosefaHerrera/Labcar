@@ -82,8 +82,6 @@ DirectionsRenderer:
             if (status === "OK") {
                 directionsDisplay.setDirections(response);
                 var leg = response.routes[0].legs[0];
-                makeMarker(leg.start_location, icons.start, '');
-                makeMarker(leg.end_location, icons.end, '');
             } else {
                 window.alert("Ruta no disponible"+ status);
             }
@@ -98,13 +96,5 @@ DirectionsRenderer:
     
     document.getElementById("ruta").addEventListener("click",onChangeHandler);
 
-     function makeMarker(position, icon, title) {
-        new google.maps.Marker({
-            position: position,
-            map: map,
-            icon: icon,
-            title: title
-        });
-    }
 };
 
